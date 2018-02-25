@@ -45,14 +45,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-payment-protocol.git"
+    "url": "https://github.com/unifycoin/bitcore-payment-protocol.git"
   },
   "browser": "lib/browser.js",
   "dependencies": {
     "asn1.js": "=4.9.1",
     "asn1.js-rfc3280": "=4.0.0",
     "asn1.js-rfc5280": "=2.0.0",
-    "bitcore-lib": "^0.15.0",
+    "bitcore-lib": "git://github.com/unifycoin/bitcore-lib.git",
     "bs58": "^4.0.1",
     "jsrsasign": "^8.0.4",
     "protobufjs": "=5.0.1"
